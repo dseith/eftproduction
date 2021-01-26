@@ -1,0 +1,2 @@
+seed=10
+cmsDriver.py Configuration/GenProduction/python/TOP-RunIIFall18wmLHEGS-00060-fragment.py --fileout file:TOP-RunIIFall18wmLHEGS-00060.root --mc --eventcontent LHE --datatier LHE --conditions 102X_upgrade2018_realistic_v11 --beamspot Realistic25ns13TeVEarly2018Collision --step LHE --geometry DB:Extended --era Run2_2018 --python_filename TOP-RunIIFall18wmLHEGS-00060_1_cfg.py --no_exec --customise Configuration/DataProcessing/Utils.addMonitoring --customise_commands process.RandomNumberGeneratorService.externalLHEProducer.initialSeed="int(${seed})" -n 132  
