@@ -35,6 +35,7 @@ externalLHEProducer = cms.EDProducer("ExternalLHEProducer",
     args = cms.vstring('../tarball.tar.xz'),  
     ...
  ``  
+ Note the ``../``.
 
 ## Premix
 
