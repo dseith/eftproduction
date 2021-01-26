@@ -1,0 +1,3 @@
+# cmsDriver.py step1 --filein $1 --fileout $2 --pileup_input $3 --mc --eventcontent PREMIXRAW --datatier GEN-SIM-RAW --conditions 80X_mcRun2_asymptotic_2016_TrancheIV_v6 --step DIGIPREMIX_S2,DATAMIX,L1,DIGI2RAW,HLT:@frozen2016 --datamix PreMix --era Run2_2016 --python_filename $4 --no_exec --customise Configuration/DataProcessing/Utils.addMonitoring -n 169  
+
+cmsDriver.py step1 --fileout $2 --filein $1 --pileup_input $3 --mc --eventcontent PREMIXRAW --datatier GEN-SIM-RAW --conditions 102X_upgrade2018_realistic_v15 --step DIGI,DATAMIX,L1,DIGI2RAW,HLT:@relval2018 --procModifiers premix_stage2 --nThreads 8 --geometry DB:Extended --datamix PreMix --era Run2_2018 --python_filename $4 --no_exec --customise Configuration/DataProcessing/Utils.addMonitoring -n 126 
