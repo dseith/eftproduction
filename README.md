@@ -29,12 +29,12 @@ In the setup step a configuration file is downloaded. Which is in the example:
 *Configuration/GenProduction/python/TOP-RunIIFall18wmLHEGS-00060-fragment.py*
 In this configuration one needs to replace in the *ExternalLHEProducer* the tarball with ones own tarball. 
 The tarball should be copied to *$CMSSW_BASE/src*
-And then it should be included in the configuration file like this:
+And then it should be included in the configuration file like this:  
 ``
-externalLHEProducer = cms.EDProducer("ExternalLHEProducer",
-    args = cms.vstring('../tarball.tar.xz'),
+externalLHEProducer = cms.EDProducer("ExternalLHEProducer",  
+    args = cms.vstring('../tarball.tar.xz'),  
     ...
- ``
+ ``  
 
 ## Premix
 
