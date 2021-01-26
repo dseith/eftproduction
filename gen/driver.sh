@@ -1,0 +1,2 @@
+seed=10
+cmsDriver.py Configuration/GenProduction/python/TOP-RunIIFall18wmGS-00060-fragment.py --filein file:TOP_LHE.root --fileout file:TOP-RunIIFall18wmGS-00060.root --mc --eventcontent RAWSIM --datatier GEN-SIM --conditions 102X_upgrade2018_realistic_v11 --beamspot Realistic25ns13TeVEarly2018Collision --step GEN,SIM --geometry DB:Extended --era Run2_2018 --python_filename TOP-RunIIFall18wmGS-00060_1_cfg.py --no_exec --customise Configuration/DataProcessing/Utils.addMonitoring --nThreads 4
