@@ -1,4 +1,6 @@
 #!/bin/bash
+THISPATH=pwd
+
 export SCRAM_ARCH=slc6_amd64_gcc700
 source /cvmfs/cms.cern.ch/cmsset_default.sh
 if [ -r CMSSW_10_2_3/src ] ; then 
@@ -14,3 +16,8 @@ curl -s --insecure https://cms-pdmv.cern.ch/mcm/public/restapi/requests/get_frag
 
 scram b
 cd ../../
+
+
+cp $THISPATH/crab.py $CMSSW_BASE/src
+cp $THISPATH/driver*.sh $CMSSW_BASE/src
+cp $THISPATH/submit.sh $CMSSW_BASE/src
