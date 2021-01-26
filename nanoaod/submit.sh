@@ -1,0 +1,4 @@
+# python crab.py st_tch_ctW_1 /ST_t-channel_4f_elmuDecays_13TeV-amcatnloFXFX-pythia8_ctW_1/dseith-GT_priv_tuneMiniAOD_14August-37671a6057fef2607a50d76b79933dcc/USER
+# python crab.py ttbar  /TT_NoFullyHadronic_13TeV-amcatnloFXFX-pythia8/dseith-GT_priv_tuneMiniAOD_09October-37671a6057fef2607a50d76b79933dcc/USER
+# python crab.py st_tch_SM /ST_t-channel_4f_elmuDecays_13TeV-amcatnloFXFX-pythia8_SM/dseith-GT_priv_tuneMiniAOD_09October-37671a6057fef2607a50d76b79933dcc/USER
+python crab.py st_tw /ST_tW_LO/dseith-GT_priv_tuneMiniAOD_26October-37671a6057fef2607a50d76b79933dcc/USER
