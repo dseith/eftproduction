@@ -13,7 +13,7 @@ There is a directory for each step. Each directory has the following files:
  1. setup.sh
  2. driver.sh
  3. crab.py
- 4. 
+ 
 The setup.sh file contains the code to setup the CMSSW environment and copy necessary files.
 The driver.sh file is for creating the _cfg.py config file which is executed with cmsRun to generate the samples.
 crab.py is for job submission on the grid.
