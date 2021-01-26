@@ -1,0 +1,3 @@
+# cmsDriver.py step1 --filein $1 --fileout $2 --mc --eventcontent MINIAODSIM --runUnscheduled --datatier MINIAODSIM --conditions 102X_upgrade2018_realistic_v15 --step PAT --nThreads 8 --geometry DB:Extended --era Run2_2018 --python_filename $3 --no_exec --customise Configuration/DataProcessing/Utils.addMonitoring -n 8597 
+
+cmsDriver.py step1 --filein $1 --fileout $2 --mc --eventcontent MINIAODSIM --runUnscheduled --datatier MINIAODSIM --conditions 102X_upgrade2018_realistic_v15 --step RAW2DIGI,L1Reco,RECO,RECOSIM,EI,PAT --nThreads 8 --geometry DB:Extended --era Run2_2018 --python_filename $3 --no_exec --customise Configuration/DataProcessing/Utils.addMonitoring -n 8597 

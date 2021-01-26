@@ -1,0 +1,7 @@
+# python crab.py st_tch_SM /ST_t-channel_4f_elmuDecays_13TeV-amcatnloFXFX-pythia8_SM/dseith-GT_stEFT_dim2_930X31July_LHEoutput-1bdbf20c2bdf3ad0edd03b2a0619982e/USER
+# python crab.py st_tch_ctW_m1 /ST_t-channel_4f_elmuDecays_13TeV-amcatnloFXFX-pythia8_ctW_m1/dseith-GT_stEFT_dim2_930X31July_LHEoutput-f920840cb24681af1d5bb945af7f5703/USER
+# python crab.py st_tch_ctW_1 /ST_t-channel_4f_elmuDecays_13TeV-amcatnloFXFX-pythia8_ctW_1/dseith-GT_priv_tunePREMIX_13August-5aa1749307f00d6302ec929df355f761/USER
+# python crab.py  ttbar /TT_NoFullyHadronic_13TeV-amcatnloFXFX-pythia8/dseith-GT_priv_tunePREMIX_13August-5aa1749307f00d6302ec929df355f761/USER
+# python crab.py st_tch_SM /ST_t-channel_4f_elmuDecays_13TeV-amcatnloFXFX-pythia8_SM/dseith-GT_priv_tunePREMIX_05October-5aa1749307f00d6302ec929df355f761/USER
+# python crab.py ttbar /TT_NoFullyHadronic_13TeV-amcatnloFXFX-pythia8/dseith-GT_priv_tunePREMIX_05October-5aa1749307f00d6302ec929df355f761/USER
+python crab.py st_tw /ST_tW_LO/dseith-GT_priv_tunePREMIX_23October-5aa1749307f00d6302ec929df355f761/USER
